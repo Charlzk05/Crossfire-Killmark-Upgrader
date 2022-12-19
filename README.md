@@ -1,8 +1,10 @@
 ## Crossfire Killmark Upgrader
 - A Crossfire Killmark Upgrader mod, allows users to change their Killmarks without earning the badge.
 - [Downloads](https://github.com/Charlzk05/Crossfire-Killmark-Upgrader/releases)
+- 
 - [Requirements](https://github.com/Charlzk05/Crossfire-Killmark-Upgrader#Requirements)
-- [How to use](https://github.com/Charlzk05/Crossfire-Killmark-Upgrader#Howtouse)
+- [How to use](https://github.com/Charlzk05/Crossfire-Killmark-Upgrader#How to use)
+- [Development](https://github.com/Charlzk05/Crossfire-Killmark-Upgrader#Development)
 
 ## Requirements
 - [.NET Framework 4.8+](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48)
