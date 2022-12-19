@@ -1,0 +1,68 @@
+﻿<Window x:Class="Crossfire_Killmark_Upgrader.Tutorial"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Crossfire_Killmark_Upgrader"
+        mc:Ignorable="d"
+        Title="Tutorial" Height="450" Width="800">
+    <Grid>
+        <ScrollViewer>
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="How to use?" FontSize="24" FontWeight="Light" Grid.Row="0"/>
+                <Separator Grid.Row="1" Margin="0 10 0 0"/>
+                <Grid Grid.Row="2" Margin="0 5 0 0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="1. Go to crossfire file location and copy paste the file location to TextBox" Grid.Row="0" FontSize="14" FontWeight="SemiBold"/>
+                    <Image Source="./Images/Step 1.png" Height="300" Grid.Row="1" RenderOptions.BitmapScalingMode="HighQuality" Margin="0 5 0 0" HorizontalAlignment="Left"/>
+                    <Image Source="./Images/Step 2.png" Height="300" Grid.Row="2" RenderOptions.BitmapScalingMode="HighQuality" Margin="0 5 0 0" HorizontalAlignment="Left"/>
+                </Grid>
+                <Separator Grid.Row="3" Margin="0 10 0 0"/>
+                <Grid Grid.Row="4" Margin="0 10 0 0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="2. Create a backup first (IMPORTANT)" Grid.Row="0" FontSize="14" FontWeight="SemiBold"/>
+                    <Image Source="./Images/Step 3.png" Height="300" Grid.Row="1" RenderOptions.BitmapScalingMode="HighQuality" Margin="0 5 0 0" HorizontalAlignment="Left"/>
+                </Grid>
+                <Separator Grid.Row="5" Margin="0 10 0 0"/>
+                <Grid Grid.Row="6" Margin="0 10 0 0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="3. After creating the Backup, you can now choose which Killmark level you want ..." Grid.Row="0" FontSize="14" FontWeight="SemiBold"/>
+                    <Image Source="./Images/Step 4.png" Height="300" Grid.Row="1" RenderOptions.BitmapScalingMode="HighQuality" Margin="0 5 0 0" HorizontalAlignment="Left"/>
+                </Grid>
+                <Separator Grid.Row="7" Margin="0 10 0 0"/>
+                <Grid Grid.Row="8" Margin="0 10 0 0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="4. If you want to set the Killmarks by default just simply click the reset button ..." Grid.Row="0" FontSize="14" FontWeight="SemiBold"/>
+                    <Image Source="./Images/Step 5.png" Height="300" Grid.Row="1" RenderOptions.BitmapScalingMode="HighQuality" Margin="0 5 0 0" HorizontalAlignment="Left"/>
+                </Grid>
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+</Window>
