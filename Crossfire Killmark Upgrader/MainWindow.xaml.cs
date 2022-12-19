@@ -125,6 +125,7 @@ namespace Crossfire_Killmark_Upgrader
             try
             {
                 File.Copy(Path.Combine(output, "GameIn_EX.txt"), Path.Combine(output, "GameIn_EX (Backup).txt"));
+                MessageBox.Show("Backup has been created successfully", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             catch (Exception ex)
             {
