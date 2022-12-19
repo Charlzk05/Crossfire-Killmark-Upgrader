@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Crossfire_Killmark_Upgrader"
         mc:Ignorable="d"
-        Title="MainWindow" Height="225" Width="800" MouseDown="Window_MouseDown" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="CanMinimize">
+        Title="MainWindow" Height="225" Width="800" MouseDown="Window_MouseDown" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="CanMinimize" Icon="./Images/CFLogo.ico">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="30"/>
@@ -13,7 +13,8 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Grid Grid.Row="0" Background="#0d6efd">
-            <TextBlock Text="Crossfire Killmark Upgrader" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10 0 0 0" FontSize="14px"/>
+            <Image Width="22" Source="./Images/CFLogo.ico" RenderOptions.BitmapScalingMode="HighQuality" VerticalAlignment="Stretch" HorizontalAlignment="Left" Margin="10 0 0 0"/>
+            <TextBlock Text="Crossfire Killmark Upgrader" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="43 0 0 0" FontSize="14px"/>
             <Button Content="X" Click="exitButton_Click" VerticalAlignment="Stretch" HorizontalAlignment="Right" Width="22" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Margin="0 0 0 0" Foreground="White"/>
             <Button Content="_" Click="minimizeButton_Click" VerticalAlignment="Stretch" HorizontalAlignment="Right" Width="22" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Margin="0 0 22 0" Foreground="White"/>
         </Grid>
